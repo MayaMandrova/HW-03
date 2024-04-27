@@ -436,7 +436,6 @@ class Courier : Person<int>
         }
     }
 
-
     static void CreateOrder(User user, ref int orderNumber)
     {
         Order<Delivery> order = new Order<Delivery>(user);
